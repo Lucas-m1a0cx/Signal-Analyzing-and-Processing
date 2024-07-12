@@ -1,0 +1,754 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.2)  17 MAR 2024 10:05
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/geek/learn/ZJU/Signal_System/hw03/test.tex
+(/home/geek/learn/ZJU/Signal_System/hw03/test.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\lst@mode=\count189
+\lst@gtempboxa=\box50
+\lst@token=\toks17
+\lst@length=\count190
+\lst@currlwidth=\dimen139
+\lst@column=\count191
+\lst@pos=\count192
+\lst@lostspace=\dimen140
+\lst@width=\dimen141
+\lst@newlines=\count193
+\lst@lineno=\count194
+\lst@maxwidth=\dimen142
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count195
+\lst@skipnumbers=\count196
+\lst@framebox=\box51
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
+ (|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count197
+\l__color_backend_stack_int=\count198
+\g__color_backend_stack_int=\count199
+\g__graphics_track_int=\count266
+\l__pdf_internal_box=\box52
+\g__pdf_backend_object_int=\count267
+\g__pdf_backend_annotation_int=\count268
+\g__pdf_backend_link_int=\count269
+) (./test.aux)
+\openout1 = `test.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 16.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+\c@lstlisting=\count270
+
+Missing character: There is no 以 (U+4EE5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 下 (U+4E0B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 代 (U+4EE3) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 码 (U+7801) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 例 (U+4F8B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ： (U+FF1A) in font [lmroman10-regular]:mapping=tex-text;!
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:21: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.21 syms 
+          t n a;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:22: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.22 T 
+       = 4; % 周期
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:22: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.22 T = 4; %
+              周期
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:22: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.22 T = 4; % 
+              周期
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 周 (U+5468) in font [lmmono9-regular]:!
+Missing character: There is no 期 (U+671F) in font [lmmono9-regular]:!
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:23: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.23 w0 
+        = 2 * pi / T; % 基本角频率
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:23: Undefined control sequence.
+\lst@keywordstyle ->\color 
+                           {blue}
+l.23 w0 = 2 * pi 
+                 / T; % 基本角频率
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:23: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.23 w0 = 2 * pi / T; %
+                        基本角频率
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:23: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.23 w0 = 2 * pi / T; % 
+                        基本角频率
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 基 (U+57FA) in font [lmmono9-regular]:!
+Missing character: There is no 本 (U+672C) in font [lmmono9-regular]:!
+Missing character: There is no 角 (U+89D2) in font [lmmono9-regular]:!
+Missing character: There is no 频 (U+9891) in font [lmmono9-regular]:!
+Missing character: There is no 率 (U+7387) in font [lmmono9-regular]:!
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:25: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.25 %
+       定义矩形波函数
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:25: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.25 %
+       定义矩形波函数
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:25: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.25 %
+       定义矩形波函数
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:25: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.25 % 
+       定义矩形波函数
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 定 (U+5B9A) in font [lmmono9-regular]:!
+Missing character: There is no 义 (U+4E49) in font [lmmono9-regular]:!
+Missing character: There is no 矩 (U+77E9) in font [lmmono9-regular]:!
+Missing character: There is no 形 (U+5F62) in font [lmmono9-regular]:!
+Missing character: There is no 波 (U+6CE2) in font [lmmono9-regular]:!
+Missing character: There is no 函 (U+51FD) in font [lmmono9-regular]:!
+Missing character: There is no 数 (U+6570) in font [lmmono9-regular]:!
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:26: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.26 f_t 
+         = a * heaviside(t + 1) * heaviside(1 - t) + 0 * (heaviside(t + 2) -...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:28: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.28 %
+       计算傅里叶系数
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:28: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.28 %
+       计算傅里叶系数
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:28: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.28 %
+       计算傅里叶系数
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:28: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.28 % 
+       计算傅里叶系数
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 计 (U+8BA1) in font [lmmono9-regular]:!
+Missing character: There is no 算 (U+7B97) in font [lmmono9-regular]:!
+Missing character: There is no 傅 (U+5085) in font [lmmono9-regular]:!
+Missing character: There is no 里 (U+91CC) in font [lmmono9-regular]:!
+Missing character: There is no 叶 (U+53F6) in font [lmmono9-regular]:!
+Missing character: There is no 系 (U+7CFB) in font [lmmono9-regular]:!
+Missing character: There is no 数 (U+6570) in font [lmmono9-regular]:!
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:29: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.29 Cn 
+        = (1 / T) * int(f_t * exp(-1i * n * w0 * t), t, -T/2, T/2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:29: Undefined control sequence.
+\lst@keywordstyle ->\color 
+                           {blue}
+l.29 Cn = (1 / T) * int(f_t * exp(
+                                  -1i * n * w0 * t), t, -T/2, T/2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:30: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.30 C0 
+        = (1 / T) * int(f_t, t, -T/2, T/2);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.32 %
+       替换参数 a 的具体值（假设 a = 0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.32 %
+       替换参数 a 的具体值（假设 a = 0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.32 %
+       替换参数 a 的具体值（假设 a = 0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.32 % 
+       替换参数 a 的具体值（假设 a = 0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 替 (U+66FF) in font [lmmono9-regular]:!
+Missing character: There is no 换 (U+6362) in font [lmmono9-regular]:!
+Missing character: There is no 参 (U+53C2) in font [lmmono9-regular]:!
+Missing character: There is no 数 (U+6570) in font [lmmono9-regular]:!
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.32 % 替换参数 a 
+              的具体值（假设 a = 0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.32 % 替换参数 a 
+              的具体值（假设 a = 0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.32 % 替换参数 a 
+              的具体值（假设 a = 0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 的 (U+7684) in font [lmmono9-regular]:!
+Missing character: There is no 具 (U+5177) in font [lmmono9-regular]:!
+Missing character: There is no 体 (U+4F53) in font [lmmono9-regular]:!
+Missing character: There is no 值 (U+503C) in font [lmmono9-regular]:!
+Missing character: There is no （ (U+FF08) in font [lmmono9-regular]:!
+Missing character: There is no 假 (U+5047) in font [lmmono9-regular]:!
+Missing character: There is no 设 (U+8BBE) in font [lmmono9-regular]:!
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.32 % 替换参数 a 的具体值（假设 a 
+                        = 0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.32 % 替换参数 a 的具体值（假设 a 
+                        = 0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.32 % 替换参数 a 的具体值（假设 a 
+                        = 0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.32 % 替换参数 a 的具体值（假设 a = 
+                          0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.32 % 替换参数 a 的具体值（假设 a = 
+                          0.5）
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ） (U+FF09) in font [lmmono9-regular]:!
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:32: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.32 % 替换参数 a 的具体值（假设 a = 0.5）
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:33: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.33 a_val 
+           = 0.5;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:34: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.34 Cn_val 
+            = subs(Cn, a, a_val);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:35: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.35 C0_val 
+            = subs(C0, a, a_val);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:37: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.37 %
+       显示傅里叶系数的数值结果
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:37: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.37 %
+       显示傅里叶系数的数值结果
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:37: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.37 %
+       显示傅里叶系数的数值结果
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:37: Undefined control sequence.
+\lst@commentstyle ->\color 
+                           {green!40!black}
+l.37 % 
+       显示傅里叶系数的数值结果
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 显 (U+663E) in font [lmmono9-regular]:!
+Missing character: There is no 示 (U+793A) in font [lmmono9-regular]:!
+Missing character: There is no 傅 (U+5085) in font [lmmono9-regular]:!
+Missing character: There is no 里 (U+91CC) in font [lmmono9-regular]:!
+Missing character: There is no 叶 (U+53F6) in font [lmmono9-regular]:!
+Missing character: There is no 系 (U+7CFB) in font [lmmono9-regular]:!
+Missing character: There is no 数 (U+6570) in font [lmmono9-regular]:!
+Missing character: There is no 的 (U+7684) in font [lmmono9-regular]:!
+Missing character: There is no 数 (U+6570) in font [lmmono9-regular]:!
+Missing character: There is no 值 (U+503C) in font [lmmono9-regular]:!
+Missing character: There is no 结 (U+7ED3) in font [lmmono9-regular]:!
+Missing character: There is no 果 (U+679C) in font [lmmono9-regular]:!
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:38: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.38 disp(
+          ['Cn: ', char(simplify(Cn_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:38: Undefined control sequence.
+\lst@keywordstyle ->\color 
+                           {blue}
+l.38 disp(
+          ['Cn: ', char(simplify(Cn_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:38: Undefined control sequence.
+\lst@stringstyle ->\color 
+                          {red}
+l.38 disp(['
+            Cn: ', char(simplify(Cn_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:38: Undefined control sequence.
+\lst@stringstyle ->\color 
+                          {red}
+l.38 disp(['Cn:
+                ', char(simplify(Cn_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:38: Undefined control sequence.
+\lst@stringstyle ->\color 
+                          {red}
+l.38 disp(['Cn: 
+                ', char(simplify(Cn_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:38: Undefined control sequence.
+\lst@stringstyle ->\color 
+                          {red}
+l.38 disp(['Cn: 
+                ', char(simplify(Cn_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:38: Undefined control sequence.
+\lst@stringstyle ->\color 
+                          {red}
+l.38 disp(['Cn: '
+                 , char(simplify(Cn_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:39: Undefined control sequence.
+\lst@numberstyle ->\tiny \color 
+                                {gray}
+l.39 disp(
+          ['C0: ', char(simplify(C0_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:39: Undefined control sequence.
+\lst@keywordstyle ->\color 
+                           {blue}
+l.39 disp(
+          ['C0: ', char(simplify(C0_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:39: Undefined control sequence.
+\lst@stringstyle ->\color 
+                          {red}
+l.39 disp(['
+            C0: ', char(simplify(C0_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:39: Undefined control sequence.
+\lst@stringstyle ->\color 
+                          {red}
+l.39 disp(['C0:
+                ', char(simplify(C0_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:39: Undefined control sequence.
+\lst@stringstyle ->\color 
+                          {red}
+l.39 disp(['C0: 
+                ', char(simplify(C0_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:39: Undefined control sequence.
+\lst@stringstyle ->\color 
+                          {red}
+l.39 disp(['C0: 
+                ', char(simplify(C0_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/geek/learn/ZJU/Signal_System/hw03/test.tex:39: Undefined control sequence.
+\lst@stringstyle ->\color 
+                          {red}
+l.39 disp(['C0: '
+                 , char(simplify(C0_val))]);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 例 (U+4F8B) in font [lmroman10-regular]:mapping=tex-text;!
+[1
+
+] (./test.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2327 strings out of 476191
+ 35587 string characters out of 5812073
+ 730907 words of memory out of 5000000
+ 23114 multiletter control sequences out of 15000+600000
+ 469299 words of font info for 33 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 39i,5n,48p,230b,1571s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on test.xdv (1 page, 14932 bytes).

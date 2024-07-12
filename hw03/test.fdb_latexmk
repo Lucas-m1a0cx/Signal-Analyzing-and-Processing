@@ -1,0 +1,26 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "test.xdv" "test.pdf" "test" 0
+  "test.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "test.pdf"
+["xelatex"] 1710641155 "/home/geek/learn/ZJU/Signal_System/hw03/test.tex" "test.xdv" "test" 1710641155
+  "/etc/texmf/web2c/texmf.cnf" 1683976769 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/geek/learn/ZJU/Signal_System/hw03/test.tex" 1710641152 1305 1dcaaa6f4a99bbd25dea5e306e27f15a ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1636758526 20144 8a7de377ae7a11ee924a7499611f5a9d ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1636758526 8448 96f18c76bf608a36ee6fbf021ac1dd32 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd" 1622581934 2430 06a89bcded389391906798ea7a3f3aaa ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty" 1622581934 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1642022539 37285 008d159fbd70e42acb550457dfa1f575 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg" 1585170648 1830 e31effa752c61538383451ae21332364 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty" 1585170648 80964 64e57373f36316e4a09b517cbf1aba2e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty" 1585170648 204271 bae5b2d457283e99567249c1990510be ""
+  "/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty" 1585170648 77022 ee25ce086f4a79d8cf73bac6f94c02a5 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1685636140 5135532 339762118a66e62cf7598f2949382578 ""
+  "test.aux" 1710641155 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "test.tex" 1710641152 1305 1dcaaa6f4a99bbd25dea5e306e27f15a ""
+  (generated)
+  "test.aux"
+  "test.log"
+  "test.xdv"

@@ -1,0 +1,102 @@
+\documentclass{article}
+
+\usepackage[UTF8]{ctex}
+\usepackage{placeins}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor} % 添加 xcolor 宏包
+\lstset{ %
+language=matlab,                % choose the language of the code
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+numbers=left,                   % where to put the line-numbers
+numberstyle=\footnotesize,      % the size of the fonts that are used for the line-numbers
+stepnumber=1,                   % the step between two line-numbers. If it is 1 each line will be numbered
+numbersep=5pt,                  % how far the line-numbers are from the code
+backgroundcolor=\color{white},  % choose the background color. You must add \usepackage{color}
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=single,           % adds a frame around the code
+tabsize=2,          % sets default tabsize to 2 spaces
+captionpos=b,           % sets the caption-position to bottom
+breaklines=true,        % sets automatic line breaking
+breakatwhitespace=false,    % sets if automatic breaks should only happen at whitespace
+escapeinside={\%*}{*)}          % if you want to add a comment within your code
+}
+\title{hw07\_MATLAB}
+\author{3220103167 缪晨轩}
+\date{\zhdate{2024/5/6}}
+\begin{document}
+    \maketitle
+    \section*{27(1)}
+    \begin{lstlisting}[caption={题27(1) MATLAB代码}, label={lst:matlab}]
+        syms z a;
+        X_z = ztrans(a^n * cos(pi*n) * heaviside(n));
+        X_z_simplified = simplify(X_z); % 简化 Z 变换表达式
+
+        disp(X_z_simplified); % 显示最简形式的 Z 变换表达式
+
+    \end{lstlisting}
+    Answer: 
+    \[X\left( z \right) =  - \frac{{a - z}}{{2\left( {a + z} \right)}}\]
+    \section*{27(2)}
+    \begin{lstlisting}[caption={题27(2) MATLAB代码}, label={lst:matlab}]
+        syms z; % 声明符号变量
+        X_z = ztrans((2^(n - 1) - (-2)^(n - 1)) * heaviside(n)); % 计算 Z 变换
+
+        X_z_simplified = simplify(X_z); % 简化 Z 变换表达式
+
+        disp(X_z_simplified); % 显示最简形式的 Z 变换表达式
+
+    \end{lstlisting}
+    Answer: 
+    \[X\left( z \right) = \frac{{{z^2} + 4}}{{2\left( {{z^2} - 4} \right)}}\]
+    \section*{28(1)}
+    \begin{lstlisting}[caption={题27(2) MATLAB代码}, label={lst:matlab}]
+        syms z n; % 声明符号变量
+        X_z = (8*z - 19) / (z^2 - 5*z + 6); % 给定的 Z 变换表达式
+
+        % 计算 Z 反变换
+        x_n = iztrans(X_z);
+
+        % 简化 Z 反变换表达式
+        x_n_simplified = simplify(x_n);
+
+        disp(x_n_simplified); % 显示最简形式的 Z 反变换表达式
+
+    \end{lstlisting}
+    Answer:
+    \[x\left( n \right) = 3 \cdot {2^{n - 1}} + 5 \cdot {3^{n - 1}} - \frac{{19 \cdot \delta \left( {n,0} \right)}}{6}\]
+    \section*{28(2)}
+    \begin{lstlisting}[caption={题27(2) MATLAB代码}, label={lst:matlab}]
+        syms z n; % 声明符号变量
+        X_z = z*(2*z^2 - 11*z + 12) / ((z - 1)*(z - 2)^2); % 给定的 Z 变换表达式
+
+        % 计算 Z 反变换
+        x_n = iztrans(X_z);
+
+        % 简化 Z 反变换表达式
+        x_n_simplified = simplify(x_n);
+
+        disp(x_n_simplified); % 显示最简形式的 Z 反变换表达式
+
+    \end{lstlisting}
+    Answer:
+    \[x\left( n \right) = 3 - {2^n} - {2^n} \cdot n\]
+    \section*{28(3)}
+    \begin{lstlisting}[caption={题27(2) MATLAB代码}, label={lst:matlab}]
+        syms z n; % 声明符号变量
+        X_z = (1 - 2*z^(-1)) / (z^(-1) - 2); % 给定的 Z 变换表达式
+
+        % 计算 Z 反变换
+        x_n = iztrans(X_z);
+
+        % 简化 Z 反变换表达式
+        x_n_simplified = simplify(x_n);
+
+        disp(x_n_simplified); % 显示最简形式的 Z 反变换表达式
+
+    \end{lstlisting}
+    Answer:
+    \[x\left( n \right) =  - \frac{{2 \cdot \delta \left( {n,0} \right) - \frac{3}{2}}}{{{2^n}}}\]
+\end{document}
